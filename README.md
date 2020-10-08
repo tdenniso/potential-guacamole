@@ -1,2 +1,2 @@
 # potential-guacamole
-Sample Spring Boot Initializer project to test with.  
+Sample Spring Boot Initializer project to test dependabot.  
