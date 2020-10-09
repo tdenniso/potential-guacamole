@@ -14,7 +14,14 @@ repositories {
 
 dependencies {
 	compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
+	// critical vuln -> https://nvd.nist.gov/vuln/detail/CVE-2019-17571
 	compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+	// high vuln -> https://nvd.nist.gov/vuln/detail/CVE-2019-17359
+	compile group: 'org.bouncycastle', name: 'bcpkix-jdk15on', version: '1.63'
+
+	// med vuln -> https://nvd.nist.gov/vuln/detail/CVE-2020-1945
+	compile group: 'org.apache.ant', name: 'ant', version: '1.10.8'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
