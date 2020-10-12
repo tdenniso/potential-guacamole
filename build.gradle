@@ -21,7 +21,7 @@ dependencies {
 	compile group: 'org.bouncycastle', name: 'bcpkix-jdk15on', version: '1.63'
 
 	// med vuln -> https://nvd.nist.gov/vuln/detail/CVE-2020-1945
-	compile group: 'org.apache.ant', name: 'ant', version: '1.10.8'
+	compile group: 'org.apache.ant', name: 'ant', version: '1.10.9'
 
 	// https://mvnrepository.com/artifact/com.h2database/h2
 	testCompile group: 'com.h2database', name: 'h2', version: '1.4.200'
