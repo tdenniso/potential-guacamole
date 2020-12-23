@@ -18,7 +18,7 @@ dependencies {
 	compile group: 'log4j', name: 'log4j', version: '1.2.17'
 
 	// high vuln -> https://nvd.nist.gov/vuln/detail/CVE-2019-17359
-	compile group: 'org.bouncycastle', name: 'bcpkix-jdk15on', version: '1.66'
+	compile group: 'org.bouncycastle', name: 'bcpkix-jdk15on', version: '1.68'
 
 	// med vuln -> https://nvd.nist.gov/vuln/detail/CVE-2020-1945
 	compile group: 'org.apache.ant', name: 'ant', version: '1.10.9'
